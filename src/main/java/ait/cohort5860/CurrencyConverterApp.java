@@ -1,4 +1,4 @@
-package ait.cohort5860.converter;
+package ait.cohort5860;
 
 import ait.cohort5860.config.ConfigLoader;
 import ait.cohort5860.dto.FixerApiDto;
@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.Map;
 import java.util.Scanner;
 
-public class CurrencyConverter {
+public class CurrencyConverterApp {
     private static final String URL = "http://data.fixer.io/api/latest";
     private static final String KEY = ConfigLoader.get("fixer.api.key");
 
